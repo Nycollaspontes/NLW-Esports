@@ -5,10 +5,12 @@ module.exports = {
     './index.html'
   ],
   theme: {
-    extend: { 
-      backgroundImage : {
-         galaxy : "url('/backgroundGalaxy.png')"
-      }
+    extend: {
+      backgroundImage: {
+        galaxy: "url('/background-galaxy.png')",
+        'nlw-gradient': 'linear-gradient(89.86deg , #9572FC 10.94%  , #43E7AD 33.94% ,  #E2D45C 80.57%)',
+        'game-gradient': 'linear-gradient(180deg , rgba(0,0,0,0) 0% , rgba(0,0,0,0.9) 67.88%)'
+      },
     },
   },
   plugins: [],
